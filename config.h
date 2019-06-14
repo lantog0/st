@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Monaco:pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = { "Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -128,7 +128,7 @@ static unsigned int defaultrcs = 0;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
